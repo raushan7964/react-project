@@ -27,7 +27,9 @@ const Home = () => {
         <FAQ />
 
         <section className="bg-blue-600 text-white rounded-xl px-8 py-12 text-center">
-          <h2 className="text-2xl font-bold ">Ready to get started?</h2>
+          <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-500 to-indigo-500">
+            Ready to get started?
+          </h2>
           <p className="mt-3 max-w-2xl mx-auto">
             Create an account and launch your first project today. No credit card required.
           </p>
